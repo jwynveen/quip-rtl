@@ -1,0 +1,14 @@
+{
+    "name": "quip-rtl",
+    "version": "1.0.0",
+    "description": "Quip Live App to provide support for RTL text",
+    "license": "MIT",
+    "scripts": {
+        "start": "NODE_ENV=development webpack-dev-server --https",
+        "build": "NODE_ENV=production webpack; create-quip-app pack ./app"
+    },
+    "author": "",
+    "devDependencies": {
+        "quip-apps-webpack-config": ">=0.0.29"
+    }
+}

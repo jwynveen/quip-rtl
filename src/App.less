@@ -1,0 +1,24 @@
+.rtl {
+    direction: rtl;
+    text-align: right;
+
+    /* Bullet list */
+    [data-section-style="5"] ul li {
+        margin-right: 32px !important;
+
+        &:before {
+            right: -18px !important;
+            left: auto !important;
+        }
+    }
+
+    /* Number list */
+    [data-section-style="6"] ul li {
+        margin-right: 32px !important;
+
+        &:before {
+            right: -1.5em !important;
+            left: auto !important;
+        }
+    }
+}
